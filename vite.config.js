@@ -12,5 +12,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: 'https://github.com/Aleksey1577/rick-and-morty-characters' // Укажите ваш репозиторий
+
 })
