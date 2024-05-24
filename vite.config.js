@@ -13,6 +13,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'https://github.com/Aleksey1577/rick-and-morty-characters' // Укажите ваш репозиторий
+  base: '/rick-and-morty-characters/' // Укажите ваш репозиторий
 
 })
